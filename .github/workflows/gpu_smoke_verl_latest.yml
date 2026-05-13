@@ -81,7 +81,7 @@ jobs:
         # Informational only — install issues against latest verl must not fail the workflow.
         continue-on-error: true
         run: |
-          pip3 install 'vllm-omni==0.18.0'
+          pip3 install 'vllm-omni==0.20.0'
           pip3 install --no-deps --force-reinstall "verl @ git+https://github.com/verl-project/verl.git@main"
           pip3 install -r requirements.txt
           pip3 install -r requirements-test.txt

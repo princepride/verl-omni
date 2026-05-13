@@ -43,7 +43,7 @@ If work is duplicate/trivial busywork, **do not proceed**. Return a short explan
 
 ```bash
 # Install vLLM and vLLM-Omni rollout backend first
-pip install "vllm==0.18" "vllm-omni==0.18"
+pip install "vllm==0.20.0" "vllm-omni==0.20.0"
 
 # Install verl (latest main)
 pip install git+https://github.com/verl-project/verl.git@main
